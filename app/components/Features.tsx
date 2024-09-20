@@ -1,24 +1,41 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import top from "../assets/top_picks.png";
+import offer from "../assets/offer.png";
+import just_in from "../assets/arrivals.png";
 
 function Features() {
   return (
     <section className="features flex justify-center items-center w-full p-0 md:p-8">
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-6 p-8 md:p-0">
-        <div className="relative bg-black h-[30vh] md:h-[20vh] md:rounded-2xl p-12 text-white">
-          <h5>Bestsellers</h5>
-          <h4 className="text-xl">Top Picks</h4>
-          <p>Explore the most popular items everyone{"'"}s loving.</p>
-        </div>
-        <div className="relative bg-black h-[30vh] md:h-[20vh] md:rounded-2xl p-12 text-white">
-          <h5>Discounted Products</h5>
-          <h4 className="text-xl">Today{"'"}s Savings</h4>
-          <p>Grab limited-time offers on select products.</p>
-        </div>
-        <div className="relative bg-black h-[30vh] md:h-[20vh] md:rounded-2xl p-12 text-white">
-          <h5>New Arrivals</h5>
-          <h4 className="text-xl">Just In</h4>
-          <p> Check out the latest additions to our collection.</p>
-        </div>
+        <Link href="#">
+          <Image
+            src={top}
+            width={650}
+            height={650}
+            className="rounded-2xl shadow-xl shadow-black hover:shadow-lg hover:shadow-[#cf2025]"
+            alt="feature images"
+          />
+        </Link>
+        <Link href="#">
+          <Image
+            src={offer}
+            width={650}
+            height={650}
+            className="rounded-2xl shadow-xl shadow-black hover:shadow-lg hover:shadow-[#cf2025]"
+            alt="feature images"
+          />
+        </Link>
+        <Link href="#">
+          <Image
+            src={just_in}
+            width={650}
+            height={650}
+            className="rounded-2xl shadow-xl shadow-black hover:shadow-lg hover:shadow-[#cf2025]"
+            alt="feature images"
+          />
+        </Link>
       </div>
     </section>
   );
