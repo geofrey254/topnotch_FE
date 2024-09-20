@@ -38,7 +38,7 @@ function Hero() {
             width={400}
             height={400}
             alt="text_book"
-            className="w-[350px] md:w-[600px] ml-32"
+            className="w-[300px] md:w-[450px] xl:w-[600px] ml-16"
           />
         </div>
       </div>
