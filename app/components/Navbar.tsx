@@ -87,7 +87,7 @@ function Navbar() {
       <div
         className={
           menuOpen
-            ? "fixed w-[90%] h-[70rem] bg-[#E4E2E2] top-0 pt-4"
+            ? "nav_anim fixed w-[90%] h-[70rem] bg-[#E4E2E2] top-0 pt-4"
             : "transition ease-in-out delay-150 duration-300 collapse"
         }
       >

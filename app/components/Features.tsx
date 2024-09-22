@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import top from "../assets/top_picks.png";
-import offer from "../assets/offer.png";
-import just_in from "../assets/arrivals.png";
+import top from "@/public/assets/top_picks.png";
+import offer from "@/public/assets/offer.png";
+import just_in from "@/public/assets/arrivals.png";
 
 function Features() {
   return (

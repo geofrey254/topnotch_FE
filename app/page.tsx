@@ -1,6 +1,9 @@
 import Hero from "./components/Hero";
 import Jumbo from "./components/Jumbo";
 import Features from "./components/Features";
+import Books from "./components/Books";
+import Banners from "./components/Banners";
+import Selling from "./components/Selling";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <Hero />
       <Jumbo />
       <Features />
+      <Books />
+      <Banners />
+      <Selling />
     </main>
   );
 }

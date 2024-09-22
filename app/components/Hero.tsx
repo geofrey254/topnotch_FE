@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import English from "../assets/english_guru.png";
+import English from "@/public/assets/english_guru.png";
 import Link from "next/link";
 
 function Hero() {
